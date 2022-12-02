@@ -1,0 +1,5 @@
+map_name: newyawk
+games:
+- {game_name: Newyawk-Law and Order, file_name: newyawk - Law & Order.xml}
+- {game_name: Newyawk, file_name: newyawk.xml}
+version: 0

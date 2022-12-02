@@ -1,0 +1,1703 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+    <info name="newyawk-Law and Order" version="1.0"/>
+    <loader javaClass="games.strategy.triplea.TripleA"/>
+    <map>
+        <!-- Territory Definitions -->
+        <territory name="aqueduct"/>
+        <territory name="astoria"/>
+        <territory name="atlantic beach"/>
+        <territory name="baychester"/>
+        <territory name="bayside"/>
+        <territory name="bedford"/>
+        <territory name="beechhurst"/>
+        <territory name="belaire"/>
+        <territory name="bergen beach"/>
+        <territory name="brighton"/>
+        <territory name="bronx"/>
+        <territory name="brooklyn"/>
+        <territory name="brookville"/>
+        <territory name="brownsville"/>
+        <territory name="cambra"/>
+        <territory name="canarsie"/>
+        <territory name="chinatown"/>
+        <territory name="clason"/>
+        <territory name="country club"/>
+        <territory name="cypress"/>
+        <territory name="dominica"/>
+        <territory name="e harlem"/>
+        <territory name="elmhurst"/>
+        <territory name="floyd bennett"/>
+        <territory name="flushing"/>
+        <territory name="ft tilden"/>
+        <territory name="glen oaks"/>
+        <territory name="glendale"/>
+        <territory name="harlem"/>
+        <territory name="highbridge"/>
+        <territory name="homecrest"/>
+        <territory name="howard beach"/>
+        <territory name="j f k"/>
+        <territory name="jackson"/>
+        <territory name="jamaica bay"/>
+        <territory name="la gauardia"/>
+        <territory name="little haiti"/>
+        <territory name="little korea"/>
+        <territory name="little neck"/>
+        <territory name="lower eastside"/>
+        <territory name="manhattan"/>
+        <territory name="mt vernon"/>
+        <territory name="mt zion"/>
+        <territory name="navy yard"/>
+        <territory name="oakland gardens"/>
+        <territory name="pelham bay"/>
+        <territory name="port hamilton"/>
+        <territory name="port totten"/>
+        <territory name="queen village"/>
+        <territory name="queens"/>
+        <territory name="redhook"/>
+        <territory name="ridgeway"/>
+        <territory name="south jamaica"/>
+        <territory name="sunset park"/>
+        <territory name="upper westside"/>
+        <territory name="vancourt"/>
+        <territory name="williamsburg"/>
+        <territory name="yonkers"/>
+
+        <!-- Territory Connections -->
+        <connection t1="aqueduct" t2="belaire"/>
+        <connection t1="aqueduct" t2="cypress"/>
+        <connection t1="aqueduct" t2="howard beach"/>
+        <connection t1="aqueduct" t2="j f k"/>
+        <connection t1="aqueduct" t2="queens"/>
+        <connection t1="aqueduct" t2="south jamaica"/>
+        <connection t1="astoria" t2="highbridge"/>
+        <connection t1="astoria" t2="jackson"/>
+        <connection t1="astoria" t2="la gauardia"/>
+        <connection t1="astoria" t2="manhattan"/>
+        <connection t1="astoria" t2="mt zion"/>
+        <connection t1="astoria" t2="williamsburg"/>
+        <connection t1="atlantic beach" t2="brookville"/>
+        <connection t1="atlantic beach" t2="ft tilden"/>
+        <connection t1="atlantic beach" t2="j f k"/>
+        <connection t1="atlantic beach" t2="jamaica bay"/>
+        <connection t1="baychester" t2="bronx"/>
+        <connection t1="baychester" t2="pelham bay"/>
+        <connection t1="baychester" t2="vancourt"/>
+        <connection t1="bayside" t2="little neck"/>
+        <connection t1="bayside" t2="oakland gardens"/>
+        <connection t1="bayside" t2="port totten"/>
+        <connection t1="bedford" t2="brownsville"/>
+        <connection t1="bedford" t2="glendale"/>
+        <connection t1="bedford" t2="little haiti"/>
+        <connection t1="bedford" t2="navy yard"/>
+        <connection t1="bedford" t2="redhook"/>
+        <connection t1="bedford" t2="ridgeway"/>
+        <connection t1="bedford" t2="williamsburg"/>
+        <connection t1="beechhurst" t2="country club"/>
+        <connection t1="beechhurst" t2="flushing"/>
+        <connection t1="beechhurst" t2="la gauardia"/>
+        <connection t1="beechhurst" t2="port totten"/>
+        <connection t1="belaire" t2="cambra"/>
+        <connection t1="belaire" t2="glen oaks"/>
+        <connection t1="belaire" t2="little korea"/>
+        <connection t1="belaire" t2="oakland gardens"/>
+        <connection t1="belaire" t2="queen village"/>
+        <connection t1="belaire" t2="queens"/>
+        <connection t1="belaire" t2="south jamaica"/>
+        <connection t1="bergen beach" t2="canarsie"/>
+        <connection t1="bergen beach" t2="floyd bennett"/>
+        <connection t1="bergen beach" t2="jamaica bay"/>
+        <connection t1="bergen beach" t2="little haiti"/>
+        <connection t1="brighton" t2="homecrest"/>
+        <connection t1="brighton" t2="port hamilton"/>
+        <connection t1="bronx" t2="clason"/>
+        <connection t1="bronx" t2="country club"/>
+        <connection t1="bronx" t2="mt vernon"/>
+        <connection t1="bronx" t2="pelham bay"/>
+        <connection t1="bronx" t2="vancourt"/>
+        <connection t1="bronx" t2="yonkers"/>
+        <connection t1="brooklyn" t2="floyd bennett"/>
+        <connection t1="brooklyn" t2="homecrest"/>
+        <connection t1="brooklyn" t2="little haiti"/>
+        <connection t1="brooklyn" t2="port hamilton"/>
+        <connection t1="brooklyn" t2="sunset park"/>
+        <connection t1="brookville" t2="cambra"/>
+        <connection t1="brookville" t2="j f k"/>
+        <connection t1="brownsville" t2="canarsie"/>
+        <connection t1="brownsville" t2="cypress"/>
+        <connection t1="brownsville" t2="howard beach"/>
+        <connection t1="brownsville" t2="jamaica bay"/>
+        <connection t1="brownsville" t2="little haiti"/>
+        <connection t1="cambra" t2="queen village"/>
+        <connection t1="cambra" t2="south jamaica"/>
+        <connection t1="canarsie" t2="little haiti"/>
+        <connection t1="chinatown" t2="lower eastside"/>
+        <connection t1="chinatown" t2="navy yard"/>
+        <connection t1="clason" t2="country club"/>
+        <connection t1="clason" t2="la gauardia"/>
+        <connection t1="clason" t2="mt vernon"/>
+        <connection t1="country club" t2="port totten"/>
+        <connection t1="cypress" t2="glendale"/>
+        <connection t1="cypress" t2="howard beach"/>
+        <connection t1="cypress" t2="queens"/>
+        <connection t1="dominica" t2="harlem"/>
+        <connection t1="dominica" t2="upper westside"/>
+        <connection t1="dominica" t2="yonkers"/>
+        <connection t1="e harlem" t2="harlem"/>
+        <connection t1="e harlem" t2="highbridge"/>
+        <connection t1="e harlem" t2="manhattan"/>
+        <connection t1="e harlem" t2="upper westside"/>
+        <connection t1="elmhurst" t2="flushing"/>
+        <connection t1="elmhurst" t2="jackson"/>
+        <connection t1="elmhurst" t2="mt zion"/>
+        <connection t1="elmhurst" t2="queens"/>
+        <connection t1="elmhurst" t2="ridgeway"/>
+        <connection t1="floyd bennett" t2="ft tilden"/>
+        <connection t1="floyd bennett" t2="homecrest"/>
+        <connection t1="flushing" t2="little korea"/>
+        <connection t1="flushing" t2="port totten"/>
+        <connection t1="glen oaks" t2="little neck"/>
+        <connection t1="glen oaks" t2="oakland gardens"/>
+        <connection t1="glen oaks" t2="queen village"/>
+        <connection t1="glendale" t2="queens"/>
+        <connection t1="glendale" t2="ridgeway"/>
+        <connection t1="harlem" t2="highbridge"/>
+        <connection t1="harlem" t2="upper westside"/>
+        <connection t1="highbridge" t2="mt vernon"/>
+        <connection t1="homecrest" t2="port hamilton"/>
+        <connection t1="howard beach" t2="j f k"/>
+        <connection t1="j f k" t2="south jamaica"/>
+        <connection t1="jackson" t2="la gauardia"/>
+        <connection t1="jackson" t2="mt zion"/>
+        <connection t1="little haiti" t2="sunset park"/>
+        <connection t1="little korea" t2="oakland gardens"/>
+        <connection t1="little korea" t2="port totten"/>
+        <connection t1="little korea" t2="queens"/>
+        <connection t1="little neck" t2="oakland gardens"/>
+        <connection t1="lower eastside" t2="manhattan"/>
+        <connection t1="lower eastside" t2="williamsburg"/>
+        <connection t1="manhattan" t2="upper westside"/>
+        <connection t1="mt vernon" t2="yonkers"/>
+        <connection t1="mt zion" t2="ridgeway"/>
+        <connection t1="mt zion" t2="williamsburg"/>
+        <connection t1="navy yard" t2="redhook"/>
+        <connection t1="navy yard" t2="williamsburg"/>
+        <connection t1="oakland gardens" t2="port totten"/>
+        <connection t1="port hamilton" t2="sunset park"/>
+        <connection t1="queens" t2="ridgeway"/>
+        <connection t1="redhook" t2="sunset park"/>
+        <connection t1="ridgeway" t2="williamsburg"/>
+        <connection t1="vancourt" t2="yonkers"/>
+    </map>
+
+    <resourceList>
+        <resource name="PUs"/>
+    </resourceList>
+
+    <playerList>
+        <!-- In Turn Order -->
+        <player name="afros" optional="true"/>
+        <player name="police" optional="true"/>
+        <player name="asians" optional="true"/>
+        <player name="latinos" optional="true"/>
+        <player name="clans" optional="true"/>
+        <player name="israel" optional="true"/>
+        <player name="muslims" optional="true"/>
+        <player name="mutants" optional="true"/>
+
+        <alliance player="afros" alliance="gangs"/>
+        <alliance player="asians" alliance="gangs"/>
+        <alliance player="clans" alliance="gangs"/>
+        <alliance player="israel" alliance="gangs"/>
+        <alliance player="latinos" alliance="gangs"/>
+        <alliance player="muslims" alliance="gangs"/>
+        <alliance player="mutants" alliance="gangs"/>
+        <alliance player="police" alliance="police"/>
+    </playerList>
+
+    <unitList>
+        <unit name="aagun"/>
+        <unit name="armour"/>
+        <unit name="cannon"/>
+        <unit name="captain"/>
+        <unit name="cavalry"/>
+        <unit name="copter"/>
+        <unit name="dogs"/>
+        <unit name="drones"/>
+        <unit name="factory"/>
+        <unit name="femdom"/>
+        <unit name="halftrac"/>
+        <unit name="imam"/>
+        <unit name="infantry"/>
+        <unit name="jeep"/>
+        <unit name="lama"/>
+        <unit name="leader"/>
+        <unit name="matador"/>
+        <unit name="pusher"/>
+        <unit name="rabbi"/>
+        <unit name="rapper"/>
+        <unit name="bunker"/>
+    </unitList>
+
+    <gamePlay>
+        <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+        <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+        <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+        <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+        <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+        <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+        <delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>
+        <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+        <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+        <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+        <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+
+        <sequence>
+            <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+
+            <!-- Bidding Phase -->
+            <step name="afrosBidPlace" delegate="placeBid" player="afros" maxRunCount="1"/>
+            <step name="asiansBidPlace" delegate="placeBid" player="asians" maxRunCount="1"/>
+            <step name="clansBidPlace" delegate="placeBid" player="clans" maxRunCount="1"/>
+            <step name="israelBidPlace" delegate="placeBid" player="israel" maxRunCount="1"/>
+            <step name="latinosBidPlace" delegate="placeBid" player="latinos" maxRunCount="1"/>
+            <step name="muslimsBidPlace" delegate="placeBid" player="muslims" maxRunCount="1"/>
+            <step name="mutantsBidPlace" delegate="placeBid" player="mutants" maxRunCount="1"/>
+            <step name="policeBidPlace" delegate="placeBid" player="police" maxRunCount="1"/>
+
+            <!-- afros Game Sequence -->
+            <step name="afrosTech" delegate="tech" player="afros"/>
+            <step name="afrosPurchase" delegate="purchase" player="afros"/>
+            <step name="afrosCombatMove" delegate="move" player="afros"/>
+            <step name="afrosBattle" delegate="battle" player="afros"/>
+            <step name="afrosNonCombatMove" delegate="move" player="afros" display="Non Combat Move"/>
+            <step name="afrosPlace" delegate="place" player="afros"/>
+            <step name="afrosTechActivation" delegate="tech_activation" player="afros"/>
+            <step name="afrosEndTurn" delegate="endTurn" player="afros"/>
+
+            <!-- asians Game Sequence -->
+            <step name="asiansTech" delegate="tech" player="asians"/>
+            <step name="asiansPurchase" delegate="purchase" player="asians"/>
+            <step name="asiansCombatMove" delegate="move" player="asians"/>
+            <step name="asiansBattle" delegate="battle" player="asians"/>
+            <step name="asiansNonCombatMove" delegate="move" player="asians" display="Non Combat Move"/>
+            <step name="asiansPlace" delegate="place" player="asians"/>
+            <step name="asiansTechActivation" delegate="tech_activation" player="asians"/>
+            <step name="asiansEndTurn" delegate="endTurn" player="asians"/>
+
+            <!-- latinos Game Sequence -->
+            <step name="latinosTech" delegate="tech" player="latinos"/>
+            <step name="latinosPurchase" delegate="purchase" player="latinos"/>
+            <step name="latinosCombatMove" delegate="move" player="latinos"/>
+            <step name="latinosBattle" delegate="battle" player="latinos"/>
+            <step name="latinosNonCombatMove" delegate="move" player="latinos" display="Non Combat Move"/>
+            <step name="latinosPlace" delegate="place" player="latinos"/>
+            <step name="latinosTechActivation" delegate="tech_activation" player="latinos"/>
+            <step name="latinosEndTurn" delegate="endTurn" player="latinos"/>
+
+            <!-- clans Game Sequence -->
+            <step name="clansTech" delegate="tech" player="clans"/>
+            <step name="clansPurchase" delegate="purchase" player="clans"/>
+            <step name="clansCombatMove" delegate="move" player="clans"/>
+            <step name="clansBattle" delegate="battle" player="clans"/>
+            <step name="clansNonCombatMove" delegate="move" player="clans" display="Non Combat Move"/>
+            <step name="clansPlace" delegate="place" player="clans"/>
+            <step name="clansTechActivation" delegate="tech_activation" player="clans"/>
+            <step name="clansEndTurn" delegate="endTurn" player="clans"/>
+
+            <!-- israel Game Sequence -->
+            <step name="israelTech" delegate="tech" player="israel"/>
+            <step name="israelPurchase" delegate="purchase" player="israel"/>
+            <step name="israelCombatMove" delegate="move" player="israel"/>
+            <step name="israelBattle" delegate="battle" player="israel"/>
+            <step name="israelNonCombatMove" delegate="move" player="israel" display="Non Combat Move"/>
+            <step name="israelPlace" delegate="place" player="israel"/>
+            <step name="israelTechActivation" delegate="tech_activation" player="israel"/>
+            <step name="israelEndTurn" delegate="endTurn" player="israel"/>
+
+            <!-- muslims Game Sequence -->
+            <step name="muslimsTech" delegate="tech" player="muslims"/>
+            <step name="muslimsPurchase" delegate="purchase" player="muslims"/>
+            <step name="muslimsCombatMove" delegate="move" player="muslims"/>
+            <step name="muslimsBattle" delegate="battle" player="muslims"/>
+            <step name="muslimsNonCombatMove" delegate="move" player="muslims" display="Non Combat Move"/>
+            <step name="muslimsPlace" delegate="place" player="muslims"/>
+            <step name="muslimsTechActivation" delegate="tech_activation" player="muslims"/>
+            <step name="muslimsEndTurn" delegate="endTurn" player="muslims"/>
+
+            <!-- mutants Game Sequence -->
+            <step name="mutantsTech" delegate="tech" player="mutants"/>
+            <step name="mutantsPurchase" delegate="purchase" player="mutants"/>
+            <step name="mutantsCombatMove" delegate="move" player="mutants"/>
+            <step name="mutantsBattle" delegate="battle" player="mutants"/>
+            <step name="mutantsNonCombatMove" delegate="move" player="mutants" display="Non Combat Move"/>
+            <step name="mutantsPlace" delegate="place" player="mutants"/>
+            <step name="mutantsTechActivation" delegate="tech_activation" player="mutants"/>
+            <step name="mutantsEndTurn" delegate="endTurn" player="mutants"/>
+
+            <!-- police Game Sequence -->
+            <step name="policeTech" delegate="tech" player="police"/>
+            <step name="policePurchase" delegate="purchase" player="police"/>
+            <step name="policeCombatMove" delegate="move" player="police"/>
+            <step name="policeBattle" delegate="battle" player="police"/>
+            <step name="policeNonCombatMove" delegate="move" player="police" display="Non Combat Move"/>
+            <step name="policePlace" delegate="place" player="police"/>
+            <step name="policeTechActivation" delegate="tech_activation" player="police"/>
+            <step name="policeEndTurn" delegate="endTurn" player="police"/>
+
+            <step name="endRoundStep" delegate="endRound"/>
+        </sequence>
+    </gamePlay>
+
+    <production>
+        <productionRule name="buyaagun_afros">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_asians">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_clans">
+            <cost resource="PUs" quantity="9" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_israel">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_latinos">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_muslims">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_mutants">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyaagun_police">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="aagun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_afros">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_asians">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_clans">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_israel">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_latinos">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_muslims">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_mutants">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyarmour_police">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="armour" quantity="1"/>
+        </productionRule>
+        <productionRule name="buybunker">
+            <cost resource="PUs" quantity="1" />
+            <result resourceOrUnit="bunker" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_afros">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_asians">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_clans">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_israel">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_latinos">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_muslims">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_mutants">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycannon_police">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="cannon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycaptain_police">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="captain" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_afros">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_asians">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_clans">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_israel">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_latinos">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_muslims">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_mutants">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycavalry_police">
+            <cost resource="PUs" quantity="4" />
+            <result resourceOrUnit="cavalry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_afros">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_asians">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_clans">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_israel">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_latinos">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_muslims">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_mutants">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buycopter_police">
+            <cost resource="PUs" quantity="8" />
+            <result resourceOrUnit="copter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydogs_afros">
+            <cost resource="PUs" quantity="2" />
+            <result resourceOrUnit="dogs" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydogs_clans">
+            <cost resource="PUs" quantity="2" />
+            <result resourceOrUnit="dogs" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydogs_israel">
+            <cost resource="PUs" quantity="2" />
+            <result resourceOrUnit="dogs" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydogs_latinos">
+            <cost resource="PUs" quantity="2" />
+            <result resourceOrUnit="dogs" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydogs_mutants">
+            <cost resource="PUs" quantity="2" />
+            <result resourceOrUnit="dogs" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydogs_police">
+            <cost resource="PUs" quantity="2" />
+            <result resourceOrUnit="dogs" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_afros">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_asians">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_clans">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_israel">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_latinos">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_muslims">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_mutants">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buydrones_police">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="drones" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfactory">
+            <cost resource="PUs" quantity="15" />
+            <result resourceOrUnit="factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_afros">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_asians">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_clans">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_israel">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_latinos">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_muslims">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_mutants">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyfemdom_police">
+            <cost resource="PUs" quantity="6" />
+            <result resourceOrUnit="femdom" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_afros">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_asians">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_clans">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_israel">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_latinos">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_muslims">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_mutants">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyhalftrac_police">
+            <cost resource="PUs" quantity="5" />
+            <result resourceOrUnit="halftrac" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyimam_muslims">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="imam" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_afros">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_asians">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_clans">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_israel">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_latinos">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_muslims">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_mutants">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyinfantry_police">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="infantry" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_afros">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_asians">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_clans">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_israel">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_latinos">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_muslims">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_mutants">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyjeep_police">
+            <cost resource="PUs" quantity="3" />
+            <result resourceOrUnit="jeep" quantity="1"/>
+        </productionRule>
+        <productionRule name="buylama_asians">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="lama" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyleader_clans">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="leader" quantity="1"/>
+        </productionRule>
+        <productionRule name="buymatador_latinos">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="matador" quantity="1"/>
+        </productionRule>
+        <productionRule name="buypusher_mutants">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="pusher" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyrabbi_israel">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="rabbi" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyrapper_afros">
+            <cost resource="PUs" quantity="7" />
+            <result resourceOrUnit="rapper" quantity="1"/>
+        </productionRule>
+
+        <!-- Production Frontiers -->
+
+        <productionFrontier name="production_afros">
+            <frontierRules name="buyaagun_afros"/>
+            <frontierRules name="buyarmour_afros"/>
+            <frontierRules name="buycannon_afros"/>
+            <frontierRules name="buycavalry_afros"/>
+            <frontierRules name="buycopter_afros"/>
+            <frontierRules name="buydogs_afros"/>
+            <frontierRules name="buydrones_afros"/>
+            <frontierRules name="buyfemdom_afros"/>
+            <frontierRules name="buyhalftrac_afros"/>
+            <frontierRules name="buyinfantry_afros"/>
+            <frontierRules name="buyjeep_afros"/>
+            <frontierRules name="buyrapper_afros"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_asians">
+            <frontierRules name="buyaagun_asians"/>
+            <frontierRules name="buyarmour_asians"/>
+            <frontierRules name="buycannon_asians"/>
+            <frontierRules name="buycavalry_asians"/>
+            <frontierRules name="buycopter_asians"/>
+            <frontierRules name="buydrones_asians"/>
+            <frontierRules name="buyfemdom_asians"/>
+            <frontierRules name="buyhalftrac_asians"/>
+            <frontierRules name="buyinfantry_asians"/>
+            <frontierRules name="buyjeep_asians"/>
+            <frontierRules name="buylama_asians"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_clans">
+            <frontierRules name="buyaagun_clans"/>
+            <frontierRules name="buyarmour_clans"/>
+            <frontierRules name="buycannon_clans"/>
+            <frontierRules name="buycavalry_clans"/>
+            <frontierRules name="buycopter_clans"/>
+            <frontierRules name="buydogs_clans"/>
+            <frontierRules name="buydrones_clans"/>
+            <frontierRules name="buyfemdom_clans"/>
+            <frontierRules name="buyhalftrac_clans"/>
+            <frontierRules name="buyinfantry_clans"/>
+            <frontierRules name="buyjeep_clans"/>
+            <frontierRules name="buyleader_clans"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_israel">
+            <frontierRules name="buyaagun_israel"/>
+            <frontierRules name="buyarmour_israel"/>
+            <frontierRules name="buycannon_israel"/>
+            <frontierRules name="buycavalry_israel"/>
+            <frontierRules name="buycopter_israel"/>
+            <frontierRules name="buydogs_israel"/>
+            <frontierRules name="buydrones_israel"/>
+            <frontierRules name="buyfemdom_israel"/>
+            <frontierRules name="buyhalftrac_israel"/>
+            <frontierRules name="buyinfantry_israel"/>
+            <frontierRules name="buyjeep_israel"/>
+            <frontierRules name="buyrabbi_israel"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_latinos">
+            <frontierRules name="buyaagun_latinos"/>
+            <frontierRules name="buyarmour_latinos"/>
+            <frontierRules name="buycannon_latinos"/>
+            <frontierRules name="buycavalry_latinos"/>
+            <frontierRules name="buycopter_latinos"/>
+            <frontierRules name="buydogs_latinos"/>
+            <frontierRules name="buydrones_latinos"/>
+            <frontierRules name="buyfemdom_latinos"/>
+            <frontierRules name="buyhalftrac_latinos"/>
+            <frontierRules name="buyinfantry_latinos"/>
+            <frontierRules name="buyjeep_latinos"/>
+            <frontierRules name="buymatador_latinos"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_muslims">
+            <frontierRules name="buyaagun_muslims"/>
+            <frontierRules name="buyarmour_muslims"/>
+            <frontierRules name="buycannon_muslims"/>
+            <frontierRules name="buycavalry_muslims"/>
+            <frontierRules name="buycopter_muslims"/>
+            <frontierRules name="buydrones_muslims"/>
+            <frontierRules name="buyfemdom_muslims"/>
+            <frontierRules name="buyhalftrac_muslims"/>
+            <frontierRules name="buyimam_muslims"/>
+            <frontierRules name="buyinfantry_muslims"/>
+            <frontierRules name="buyjeep_muslims"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_mutants">
+            <frontierRules name="buyaagun_mutants"/>
+            <frontierRules name="buyarmour_mutants"/>
+            <frontierRules name="buycannon_mutants"/>
+            <frontierRules name="buycavalry_mutants"/>
+            <frontierRules name="buycopter_mutants"/>
+            <frontierRules name="buydogs_mutants"/>
+            <frontierRules name="buydrones_mutants"/>
+            <frontierRules name="buyfemdom_mutants"/>
+            <frontierRules name="buyhalftrac_mutants"/>
+            <frontierRules name="buyinfantry_mutants"/>
+            <frontierRules name="buyjeep_mutants"/>
+            <frontierRules name="buypusher_mutants"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_police">
+            <frontierRules name="buyaagun_police"/>
+            <frontierRules name="buyarmour_police"/>
+            <frontierRules name="buycannon_police"/>
+            <frontierRules name="buycaptain_police"/>
+            <frontierRules name="buycavalry_police"/>
+            <frontierRules name="buycopter_police"/>
+            <frontierRules name="buydogs_police"/>
+            <frontierRules name="buydrones_police"/>
+            <frontierRules name="buyfemdom_police"/>
+            <frontierRules name="buyhalftrac_police"/>
+            <frontierRules name="buyinfantry_police"/>
+            <frontierRules name="buyjeep_police"/>
+            <frontierRules name="buyfactory"/>
+            <frontierRules name="buybunker"/>
+        </productionFrontier>
+
+        <!-- Production Frontier Assignments -->
+        <playerProduction player="afros" frontier="production_afros"/>
+        <playerProduction player="asians" frontier="production_asians"/>
+        <playerProduction player="clans" frontier="production_clans"/>
+        <playerProduction player="israel" frontier="production_israel"/>
+        <playerProduction player="latinos" frontier="production_latinos"/>
+        <playerProduction player="muslims" frontier="production_muslims"/>
+        <playerProduction player="mutants" frontier="production_mutants"/>
+        <playerProduction player="police" frontier="production_police"/>
+    </production>
+
+    <attachmentList>
+        <!-- Unit Attachments -->
+
+<attachment name="unitAttachment" attachTo="bunker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="defense" value="1"/>
+            <option name="movement" value="0"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="aagun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="defense" value="1"/>
+            <option name="isAA" value="true"/>
+            <option name="movement" value="0"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+            <option name="destroyedWhenCapturedBy" value="police"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="2"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="cannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="captain" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="2"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="copter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="movement" value="4"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="dogs" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="drones" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="1"/>
+            <option name="isAir" value="true"/>
+            <option name="movement" value="5"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isFactory" value="true"/>
+            <option name="destroyedWhenCapturedBy" value="police"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="femdom" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="halftrac" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="imam" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="jeep" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="lama" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="leader" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="matador" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="pusher" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="rabbi" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="rapper" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="movement" value="1"/>
+            <option name="maxBuiltPerPlayer" value="10"/>
+        </attachment>
+
+        <!-- Territory Data -->
+        <attachment name="territoryAttachment" attachTo="aqueduct" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="astoria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="atlantic beach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="baychester" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bayside" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bedford" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="beechhurst" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="belaire" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bergen beach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="brighton" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="bronx" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="brooklyn" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="brookville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="brownsville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="cambra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="canarsie" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="chinatown" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="clason" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="country club" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="cypress" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="dominica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="e harlem" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="elmhurst" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="floyd bennett" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="flushing" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ft tilden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="glen oaks" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="glendale" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="harlem" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="highbridge" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="homecrest" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="howard beach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="j f k" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+            <option name="capital" value="police"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="jackson" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="jamaica bay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="la gauardia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="little haiti" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="little korea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="little neck" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="lower eastside" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="manhattan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="mt vernon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="mt zion" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="navy yard" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="oakland gardens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="pelham bay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="port hamilton" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="port totten" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="queen village" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="queens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="redhook" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="ridgeway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="south jamaica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="sunset park" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="upper westside" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="vancourt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="williamsburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="yonkers" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+    </attachmentList>
+
+    <initialize>
+        <ownerInitialize>
+            <!-- afros Owned Territories -->
+            <territoryOwner territory="atlantic beach" owner="afros"/>
+            <territoryOwner territory="baychester" owner="afros"/>
+            <territoryOwner territory="bedford" owner="afros"/>
+            <territoryOwner territory="belaire" owner="afros"/>
+            <territoryOwner territory="brownsville" owner="afros"/>
+            <territoryOwner territory="cambra" owner="afros"/>
+            <territoryOwner territory="e harlem" owner="afros"/>
+            <territoryOwner territory="harlem" owner="afros"/>
+            <territoryOwner territory="little haiti" owner="afros"/>
+            <territoryOwner territory="queen village" owner="afros"/>
+            <territoryOwner territory="south jamaica" owner="afros"/>
+            <!-- asians Owned Territories -->
+            <territoryOwner territory="chinatown" owner="asians"/>
+            <territoryOwner territory="elmhurst" owner="asians"/>
+            <territoryOwner territory="flushing" owner="asians"/>
+            <territoryOwner territory="little korea" owner="asians"/>
+            <!-- clans Owned Territories -->
+            <territoryOwner territory="bayside" owner="clans"/>
+            <territoryOwner territory="brighton" owner="clans"/>
+            <territoryOwner territory="brookville" owner="clans"/>
+            <territoryOwner territory="country club" owner="clans"/>
+            <territoryOwner territory="floyd bennett" owner="clans"/>
+            <territoryOwner territory="pelham bay" owner="clans"/>
+            <territoryOwner territory="upper westside" owner="clans"/>
+            <territoryOwner territory="vancourt" owner="clans"/>
+            <territoryOwner territory="yonkers" owner="clans"/>
+            <!-- israel Owned Territories -->
+            <territoryOwner territory="bronx" owner="israel"/>
+            <territoryOwner territory="brooklyn" owner="israel"/>
+            <territoryOwner territory="lower eastside" owner="israel"/>
+            <territoryOwner territory="mt zion" owner="israel"/>
+            <territoryOwner territory="queens" owner="israel"/>
+            <!-- latinos Owned Territories -->
+            <territoryOwner territory="aqueduct" owner="latinos"/>
+            <territoryOwner territory="clason" owner="latinos"/>
+            <territoryOwner territory="dominica" owner="latinos"/>
+            <territoryOwner territory="glen oaks" owner="latinos"/>
+            <territoryOwner territory="highbridge" owner="latinos"/>
+            <territoryOwner territory="jackson" owner="latinos"/>
+            <territoryOwner territory="mt vernon" owner="latinos"/>
+            <!-- muslims Owned Territories -->
+            <territoryOwner territory="astoria" owner="muslims"/>
+            <territoryOwner territory="cypress" owner="muslims"/>
+            <territoryOwner territory="homecrest" owner="muslims"/>
+            <territoryOwner territory="redhook" owner="muslims"/>
+            <territoryOwner territory="ridgeway" owner="muslims"/>
+            <territoryOwner territory="sunset park" owner="muslims"/>
+            <territoryOwner territory="williamsburg" owner="muslims"/>
+            <!-- mutants Owned Territories -->
+            <territoryOwner territory="beechhurst" owner="mutants"/>
+            <territoryOwner territory="bergen beach" owner="mutants"/>
+            <territoryOwner territory="canarsie" owner="mutants"/>
+            <territoryOwner territory="glendale" owner="mutants"/>
+            <territoryOwner territory="howard beach" owner="mutants"/>
+            <territoryOwner territory="jamaica bay" owner="mutants"/>
+            <territoryOwner territory="little neck" owner="mutants"/>
+            <territoryOwner territory="oakland gardens" owner="mutants"/>
+            <!-- police Owned Territories -->
+            <territoryOwner territory="ft tilden" owner="police"/>
+            <territoryOwner territory="j f k" owner="police"/>
+            <territoryOwner territory="la gauardia" owner="police"/>
+            <territoryOwner territory="manhattan" owner="police"/>
+            <territoryOwner territory="navy yard" owner="police"/>
+            <territoryOwner territory="port hamilton" owner="police"/>
+            <territoryOwner territory="port totten" owner="police"/>
+        </ownerInitialize>
+
+        <unitInitialize>
+
+            <!-- afros Unit Placements -->
+            <unitPlacement unitType="dogs" territory="atlantic beach" quantity="1" owner="afros"/>
+            <unitPlacement unitType="jeep" territory="atlantic beach" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="atlantic beach" quantity="1" owner="afros"/>
+            <unitPlacement unitType="armour" territory="baychester" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="baychester" quantity="1" owner="afros"/>
+            <unitPlacement unitType="infantry" territory="baychester" quantity="1" owner="afros"/>
+            <unitPlacement unitType="cannon" territory="bedford" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="bedford" quantity="1" owner="afros"/>
+            <unitPlacement unitType="cavalry" territory="bedford" quantity="1" owner="afros"/>
+            <unitPlacement unitType="cannon" territory="belaire" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="belaire" quantity="1" owner="afros"/>
+            <unitPlacement unitType="infantry" territory="brownsville" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="brownsville" quantity="1" owner="afros"/>
+            <unitPlacement unitType="halftrac" territory="cambra" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="cambra" quantity="1" owner="afros"/>
+            <unitPlacement unitType="infantry" territory="cambra" quantity="1" owner="afros"/>
+            <unitPlacement unitType="halftrac" territory="e harlem" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="e harlem" quantity="1" owner="afros"/>
+            <unitPlacement unitType="aagun" territory="e harlem" quantity="1" owner="afros"/>
+            <unitPlacement unitType="drones" territory="e harlem" quantity="1" owner="afros"/>
+            <unitPlacement unitType="rapper" territory="harlem" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="harlem" quantity="1" owner="afros"/>
+            <unitPlacement unitType="copter" territory="harlem" quantity="1" owner="afros"/>
+            <unitPlacement unitType="halftrac" territory="little haiti" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="little haiti" quantity="1" owner="afros"/>
+            <unitPlacement unitType="femdom" territory="queen village" quantity="1" owner="afros"/>
+            <unitPlacement unitType="bunker" territory="queen village" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="queen village" quantity="1" owner="afros"/>
+            <unitPlacement unitType="copter" territory="queen village" quantity="1" owner="afros"/>
+            <unitPlacement unitType="cavalry" territory="queen village" quantity="1" owner="afros"/>
+            <unitPlacement unitType="jeep" territory="south jamaica" quantity="1" owner="afros"/>
+            <unitPlacement unitType="factory" territory="south jamaica" quantity="1" owner="afros"/>
+            <unitPlacement unitType="cannon" territory="south jamaica" quantity="1" owner="afros"/>
+
+            <!-- asians Unit Placements -->
+            <unitPlacement unitType="cannon" territory="chinatown" quantity="1" owner="asians"/>
+            <unitPlacement unitType="factory" territory="chinatown" quantity="1" owner="asians"/>
+            <unitPlacement unitType="armour" territory="chinatown" quantity="1" owner="asians"/>
+            <unitPlacement unitType="femdom" territory="elmhurst" quantity="1" owner="asians"/>
+            <unitPlacement unitType="factory" territory="elmhurst" quantity="1" owner="asians"/>
+            <unitPlacement unitType="drones" territory="elmhurst" quantity="1" owner="asians"/>
+            <unitPlacement unitType="infantry" territory="elmhurst" quantity="1" owner="asians"/>
+            <unitPlacement unitType="aagun" territory="flushing" quantity="1" owner="asians"/>
+            <unitPlacement unitType="bunker" territory="flushing" quantity="1" owner="asians"/>
+            <unitPlacement unitType="factory" territory="flushing" quantity="1" owner="asians"/>
+            <unitPlacement unitType="jeep" territory="flushing" quantity="1" owner="asians"/>
+            <unitPlacement unitType="lama" territory="flushing" quantity="1" owner="asians"/>
+            <unitPlacement unitType="infantry" territory="flushing" quantity="1" owner="asians"/>
+            <unitPlacement unitType="copter" territory="flushing" quantity="1" owner="asians"/>
+            <unitPlacement unitType="jeep" territory="little korea" quantity="1" owner="asians"/>
+            <unitPlacement unitType="factory" territory="little korea" quantity="1" owner="asians"/>
+            <unitPlacement unitType="cannon" territory="little korea" quantity="1" owner="asians"/>
+
+            <!-- clans Unit Placements -->
+            <unitPlacement unitType="halftrac" territory="bayside" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="bayside" quantity="1" owner="clans"/>
+            <unitPlacement unitType="infantry" territory="bayside" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cannon" territory="brighton" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="brighton" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cavalry" territory="brighton" quantity="1" owner="clans"/>
+            <unitPlacement unitType="jeep" territory="brookville" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="brookville" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cannon" territory="brookville" quantity="1" owner="clans"/>
+            <unitPlacement unitType="infantry" territory="brookville" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cannon" territory="country club" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="country club" quantity="1" owner="clans"/>
+            <unitPlacement unitType="armour" territory="country club" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cannon" territory="floyd bennett" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="floyd bennett" quantity="1" owner="clans"/>
+            <unitPlacement unitType="armour" territory="floyd bennett" quantity="1" owner="clans"/>
+            <unitPlacement unitType="infantry" territory="floyd bennett" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cavalry" territory="pelham bay" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="pelham bay" quantity="1" owner="clans"/>
+            <unitPlacement unitType="infantry" territory="pelham bay" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cannon" territory="upper westside" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="upper westside" quantity="1" owner="clans"/>
+            <unitPlacement unitType="armour" territory="upper westside" quantity="1" owner="clans"/>
+            <unitPlacement unitType="leader" territory="vancourt" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="vancourt" quantity="1" owner="clans"/>
+            <unitPlacement unitType="copter" territory="vancourt" quantity="1" owner="clans"/>
+            <unitPlacement unitType="cannon" territory="vancourt" quantity="1" owner="clans"/>
+            <unitPlacement unitType="bunker" territory="vancourt" quantity="1" owner="clans"/>
+            <unitPlacement unitType="aagun" territory="vancourt" quantity="1" owner="clans"/>
+            <unitPlacement unitType="armour" territory="vancourt" quantity="1" owner="clans"/>
+            <unitPlacement unitType="femdom" territory="yonkers" quantity="1" owner="clans"/>
+            <unitPlacement unitType="factory" territory="yonkers" quantity="1" owner="clans"/>
+            <unitPlacement unitType="drones" territory="yonkers" quantity="1" owner="clans"/>
+            <unitPlacement unitType="armour" territory="yonkers" quantity="1" owner="clans"/>
+
+            <!-- israel Unit Placements -->
+            <unitPlacement unitType="armour" territory="bronx" quantity="1" owner="israel"/>
+            <unitPlacement unitType="cavalry" territory="bronx" quantity="1" owner="israel"/>
+            <unitPlacement unitType="factory" territory="bronx" quantity="1" owner="israel"/>
+            <unitPlacement unitType="drones" territory="brooklyn" quantity="1" owner="israel"/>
+            <unitPlacement unitType="factory" territory="brooklyn" quantity="1" owner="israel"/>
+            <unitPlacement unitType="femdom" territory="brooklyn" quantity="1" owner="israel"/>
+            <unitPlacement unitType="infantry" territory="brooklyn" quantity="1" owner="israel"/>
+            <unitPlacement unitType="cannon" territory="brooklyn" quantity="1" owner="israel"/>
+            <unitPlacement unitType="armour" territory="lower eastside" quantity="1" owner="israel"/>
+            <unitPlacement unitType="factory" territory="lower eastside" quantity="1" owner="israel"/>
+            <unitPlacement unitType="aagun" territory="lower eastside" quantity="1" owner="israel"/>
+            <unitPlacement unitType="rabbi" territory="lower eastside" quantity="1" owner="israel"/>
+            <unitPlacement unitType="copter" territory="lower eastside" quantity="1" owner="israel"/>
+            <unitPlacement unitType="bunker" territory="lower eastside" quantity="1" owner="israel"/>
+            <unitPlacement unitType="infantry" territory="lower eastside" quantity="1" owner="israel"/>
+            <unitPlacement unitType="cavalry" territory="mt zion" quantity="1" owner="israel"/>
+            <unitPlacement unitType="factory" territory="mt zion" quantity="1" owner="israel"/>
+            <unitPlacement unitType="infantry" territory="mt zion" quantity="1" owner="israel"/>
+            <unitPlacement unitType="jeep" territory="mt zion" quantity="1" owner="israel"/>
+            <unitPlacement unitType="femdom" territory="queens" quantity="1" owner="israel"/>
+            <unitPlacement unitType="factory" territory="queens" quantity="1" owner="israel"/>
+            <unitPlacement unitType="infantry" territory="queens" quantity="1" owner="israel"/>
+            <unitPlacement unitType="cannon" territory="queens" quantity="1" owner="israel"/>
+
+            <!-- latinos Unit Placements -->
+            <unitPlacement unitType="jeep" territory="aqueduct" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="factory" territory="aqueduct" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="cavalry" territory="aqueduct" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="dogs" territory="aqueduct" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="infantry" territory="clason" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="factory" territory="clason" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="dogs" territory="clason" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="infantry" territory="dominica" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="factory" territory="dominica" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="halftrac" territory="dominica" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="armour" territory="glen oaks" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="factory" territory="glen oaks" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="cannon" territory="glen oaks" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="cannon" territory="highbridge" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="factory" territory="highbridge" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="cavalry" territory="highbridge" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="imam" territory="jackson" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="factory" territory="jackson" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="infantry" territory="jackson" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="femdom" territory="jackson" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="infantry" territory="mt vernon" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="factory" territory="mt vernon" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="aagun" territory="mt vernon" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="armour" territory="mt vernon" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="matador" territory="mt vernon" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="copter" territory="mt vernon" quantity="1" owner="latinos"/>
+            <unitPlacement unitType="bunker" territory="mt vernon" quantity="1" owner="latinos"/>
+
+            <!-- muslims Unit Placements -->
+            <unitPlacement unitType="armour" territory="astoria" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="factory" territory="astoria" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="jeep" territory="astoria" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="drones" territory="cypress" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="factory" territory="cypress" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="halftrac" territory="cypress" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="cavalry" territory="homecrest" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="factory" territory="homecrest" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="cannon" territory="homecrest" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="cavalry" territory="redhook" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="factory" territory="redhook" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="cannon" territory="redhook" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="femdom" territory="ridgeway" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="cavalry" territory="ridgeway" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="factory" territory="ridgeway" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="armour" territory="sunset park" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="factory" territory="sunset park" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="copter" territory="sunset park" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="bunker" territory="sunset park" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="aagun" territory="sunset park" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="imam" territory="sunset park" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="infantry" territory="williamsburg" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="factory" territory="williamsburg" quantity="1" owner="muslims"/>
+            <unitPlacement unitType="halftrac" territory="williamsburg" quantity="1" owner="muslims"/>
+
+            <!-- mutants Unit Placements -->
+            <unitPlacement unitType="cavalry" territory="beechhurst" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="beechhurst" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="cannon" territory="beechhurst" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="infantry" territory="beechhurst" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="infantry" territory="bergen beach" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="bergen beach" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="halftrac" territory="bergen beach" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="drones" territory="canarsie" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="canarsie" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="aagun" territory="canarsie" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="femdom" territory="canarsie" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="cavalry" territory="glendale" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="glendale" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="jeep" territory="glendale" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="cannon" territory="howard beach" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="howard beach" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="armour" territory="howard beach" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="pusher" territory="jamaica bay" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="jamaica bay" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="copter" territory="jamaica bay" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="halftrac" territory="jamaica bay" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="jeep" territory="jamaica bay" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="bunker" territory="jamaica bay" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="dogs" territory="little neck" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="infantry" territory="little neck" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="little neck" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="jeep" territory="oakland gardens" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="factory" territory="oakland gardens" quantity="1" owner="mutants"/>
+            <unitPlacement unitType="armour" territory="oakland gardens" quantity="1" owner="mutants"/>
+
+            <!-- police Unit Placements -->
+            <unitPlacement unitType="infantry" territory="ft tilden" quantity="1" owner="police"/>
+            <unitPlacement unitType="factory" territory="ft tilden" quantity="1" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="ft tilden" quantity="1" owner="police"/>
+            <unitPlacement unitType="dogs" territory="j f k" quantity="1" owner="police"/>
+            <unitPlacement unitType="factory" territory="j f k" quantity="1" owner="police"/>
+            <unitPlacement unitType="aagun" territory="j f k" quantity="1" owner="police"/>
+            <unitPlacement unitType="copter" territory="j f k" quantity="1" owner="police"/>
+            <unitPlacement unitType="bunker" territory="j f k" quantity="1" owner="police"/>
+            <unitPlacement unitType="captain" territory="j f k" quantity="1" owner="police"/>
+            <unitPlacement unitType="armour" territory="j f k" quantity="1" owner="police"/>
+            <unitPlacement unitType="infantry" territory="la gauardia" quantity="1" owner="police"/>
+            <unitPlacement unitType="factory" territory="la gauardia" quantity="1" owner="police"/>
+            <unitPlacement unitType="cannon" territory="la gauardia" quantity="1" owner="police"/>
+            <unitPlacement unitType="dogs" territory="manhattan" quantity="1" owner="police"/>
+            <unitPlacement unitType="factory" territory="manhattan" quantity="1" owner="police"/>
+            <unitPlacement unitType="infantry" territory="manhattan" quantity="1" owner="police"/>
+            <unitPlacement unitType="jeep" territory="manhattan" quantity="1" owner="police"/>
+            <unitPlacement unitType="cavalry" territory="navy yard" quantity="1" owner="police"/>
+            <unitPlacement unitType="factory" territory="navy yard" quantity="1" owner="police"/>
+            <unitPlacement unitType="drones" territory="navy yard" quantity="1" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="navy yard" quantity="1" owner="police"/>
+            <unitPlacement unitType="infantry" territory="port hamilton" quantity="1" owner="police"/>
+            <unitPlacement unitType="factory" territory="port hamilton" quantity="1" owner="police"/>
+            <unitPlacement unitType="cannon" territory="port hamilton" quantity="1" owner="police"/>
+            <unitPlacement unitType="femdom" territory="port hamilton" quantity="1" owner="police"/>
+            <unitPlacement unitType="dogs" territory="port totten" quantity="1" owner="police"/>
+            <unitPlacement unitType="factory" territory="port totten" quantity="1" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="port totten" quantity="1" owner="police"/>
+            <unitPlacement unitType="cannon" territory="port totten" quantity="1" owner="police"/>
+
+ <!-- National Guard Reinforcements -->
+            <unitPlacement unitType="armour" territory="manhattan" quantity="2" owner="police"/>
+            <unitPlacement unitType="cannon" territory="manhattan" quantity="2" owner="police"/>
+            <unitPlacement unitType="copter" territory="manhattan" quantity="2" owner="police"/>
+            <unitPlacement unitType="drones" territory="manhattan" quantity="2" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="manhattan" quantity="2" owner="police"/>
+            <unitPlacement unitType="infantry" territory="manhattan" quantity="2" owner="police"/>
+            <unitPlacement unitType="jeep" territory="manhattan" quantity="2" owner="police"/>
+            <unitPlacement unitType="armour" territory="j f k" quantity="2" owner="police"/>
+            <unitPlacement unitType="cannon" territory="j f k" quantity="2" owner="police"/>
+            <unitPlacement unitType="copter" territory="j f k" quantity="2" owner="police"/>
+            <unitPlacement unitType="drones" territory="j f k" quantity="2" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="j f k" quantity="2" owner="police"/>
+            <unitPlacement unitType="infantry" territory="j f k" quantity="2" owner="police"/>
+            <unitPlacement unitType="jeep" territory="j f k" quantity="2" owner="police"/>
+            <unitPlacement unitType="armour" territory="ft tilden" quantity="2" owner="police"/>
+            <unitPlacement unitType="cannon" territory="ft tilden" quantity="2" owner="police"/>
+            <unitPlacement unitType="copter" territory="ft tilden" quantity="2" owner="police"/>
+            <unitPlacement unitType="drones" territory="ft tilden" quantity="2" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="ft tilden" quantity="2" owner="police"/>
+            <unitPlacement unitType="infantry" territory="ft tilden" quantity="2" owner="police"/>
+            <unitPlacement unitType="jeep" territory="ft tilden" quantity="2" owner="police"/>
+            <unitPlacement unitType="armour" territory="navy yard" quantity="2" owner="police"/>
+            <unitPlacement unitType="cannon" territory="navy yard" quantity="2" owner="police"/>
+            <unitPlacement unitType="copter" territory="navy yard" quantity="2" owner="police"/>
+            <unitPlacement unitType="drones" territory="navy yard" quantity="2" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="navy yard" quantity="2" owner="police"/>
+            <unitPlacement unitType="infantry" territory="navy yard" quantity="2" owner="police"/>
+            <unitPlacement unitType="jeep" territory="navy yard" quantity="2" owner="police"/>
+            <unitPlacement unitType="armour" territory="la gauardia" quantity="2" owner="police"/>
+            <unitPlacement unitType="cannon" territory="la gauardia" quantity="2" owner="police"/>
+            <unitPlacement unitType="copter" territory="la gauardia" quantity="2" owner="police"/>
+            <unitPlacement unitType="drones" territory="la gauardia" quantity="2" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="la gauardia" quantity="2" owner="police"/>
+            <unitPlacement unitType="infantry" territory="la gauardia" quantity="2" owner="police"/>
+            <unitPlacement unitType="jeep" territory="la gauardia" quantity="2" owner="police"/>
+            <unitPlacement unitType="armour" territory="port hamilton" quantity="2" owner="police"/>
+            <unitPlacement unitType="cannon" territory="port hamilton" quantity="2" owner="police"/>
+            <unitPlacement unitType="copter" territory="port hamilton" quantity="2" owner="police"/>
+            <unitPlacement unitType="drones" territory="port hamilton" quantity="2" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="port hamilton" quantity="2" owner="police"/>
+            <unitPlacement unitType="infantry" territory="port hamilton" quantity="2" owner="police"/>
+            <unitPlacement unitType="jeep" territory="port hamilton" quantity="2" owner="police"/>
+            <unitPlacement unitType="armour" territory="port totten" quantity="2" owner="police"/>
+            <unitPlacement unitType="cannon" territory="port totten" quantity="2" owner="police"/>
+            <unitPlacement unitType="copter" territory="port totten" quantity="2" owner="police"/>
+            <unitPlacement unitType="drones" territory="port totten" quantity="2" owner="police"/>
+            <unitPlacement unitType="halftrac" territory="port totten" quantity="2" owner="police"/>
+            <unitPlacement unitType="infantry" territory="port totten" quantity="2" owner="police"/>
+            <unitPlacement unitType="jeep" territory="port totten" quantity="2" owner="police"/>
+
+        </unitInitialize>
+
+        <resourceInitialize>
+            <resourceGiven player="afros" resource="PUs" quantity="17"/>
+            <resourceGiven player="asians" resource="PUs" quantity="15"/>
+            <resourceGiven player="clans" resource="PUs" quantity="17"/>
+            <resourceGiven player="israel" resource="PUs" quantity="18"/>
+            <resourceGiven player="latinos" resource="PUs" quantity="14"/>
+            <resourceGiven player="muslims" resource="PUs" quantity="15"/>
+            <resourceGiven player="mutants" resource="PUs" quantity="13"/>
+            <resourceGiven player="police" resource="PUs" quantity="16"/>
+        </resourceInitialize>
+    </initialize>
+
+    <propertyList>
+        <property name="afros bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="asians bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="clans bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="israel bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="latinos bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="muslims bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="mutants bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="police bid" value="0" editable="true">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="Anniversary Edition Land Production" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Blitz Through Factories And AA Restricted" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Honorable Surrender" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Movement By Territory Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="National Objectives" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Occupied Territories" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Place in Any Territory" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Placement Restricted By Factory" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Production Per Valued Territory Restricted" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Production Per X Territories Restricted" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="SBR Victory Points" value="true" editable="true">
+            <boolean/>
+        </property>
+<property name="Units Can Be Destroyed Instead Of Captured" value="true" editable="false">
+<boolean/>
+</property>
+        <property name="Tech Development" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Territory Turn Limit" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Total Victory" value="true" editable="true">
+            <boolean/>
+        </property>
+    <property name="police Total Victory VCs" value="7" editable="true">
+      <number min="2" max="8"/>
+    </property>
+    <property name="gangs Total Victory VCs" value="8" editable="false">
+      <number min="8" max="8"/>
+    </property>
+
+        <property name="Unit Placement Per Territory Restricted" value="true" editable="true">
+            <boolean/>
+        </property>
+        <property name="Unplaced units live when not placed" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="maxFactoriesPerTerritory" value="1" editable="false">
+            <number min="0" max="500000"/>
+        </property>
+        <property name="notes">
+            <value>
+            <![CDATA[The year is 2020, the battle for new yawk. It is ugly. Leaders and femdoms (female fighting units!!) are artillery (generals), they support infantry, halftrac and cavalry. The police have been massively reinforced by the National Guard to surpress the gangs. There are land bridges and no ships. Mod by Roger Cooper from the original new yawk. The misspellings are in the original. ]]>
+            </value>
+        </property>
+        <property name="mapName" value="newyawk" editable="false"/>
+    </propertyList>
+</game>
